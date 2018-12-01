@@ -317,9 +317,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_FindMe\Scripts\WB_ClockScript.cs" />
-    <Compile Include="Assets\_FindMe\Scripts\WB_ScoreScript.cs" />
-    <Compile Include="Assets\_FindMe\Scripts\WB_WorldBallScript.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\WorldBall\WS_ClockScript.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\WorldBall\WS_ScoreScript.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\WorldBall\WS_WorldBallScript.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\WS_GameStateManager.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\WS_WorldGame.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
