@@ -407,6 +407,7 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\_FindMe\Shaders\Insideout.shader" />
     <None Include="C:\Users\serantz\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.9.11\Editor\Resources\Styles\Main_Dark.uss" />
     <None Include="C:\Users\serantz\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.9.11\Editor\Resources\Styles\Main_Light.uss" />
     <None Include="C:\Users\serantz\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.9.11\Editor\Resources\Templates\Alert.uxml" />

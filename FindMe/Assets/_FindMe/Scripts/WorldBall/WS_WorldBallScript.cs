@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace FindMe
+namespace find_me
 {
     public class WS_WorldBallScript : MonoBehaviour
     {

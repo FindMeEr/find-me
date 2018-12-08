@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace FindMe
+namespace find_me
 {
     public class WS_ScoreScript : MonoBehaviour
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-namespace FindMe
+namespace find_me
 {
     public class WS_ClockScript : MonoBehaviour
     {

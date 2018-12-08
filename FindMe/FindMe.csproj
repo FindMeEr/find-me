@@ -320,8 +320,13 @@
     <Compile Include="Assets\_FindMe\Scripts\WorldBall\WS_ClockScript.cs" />
     <Compile Include="Assets\_FindMe\Scripts\WorldBall\WS_ScoreScript.cs" />
     <Compile Include="Assets\_FindMe\Scripts\WorldBall\WS_WorldBallScript.cs" />
-    <Compile Include="Assets\_FindMe\Scripts\WS_GameStateManager.cs" />
-    <Compile Include="Assets\_FindMe\Scripts\WS_WorldGame.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\WS_2DWorldManager.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\WS_GameState.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\WS_ObjectData.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\WS_ObjectData2D.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\WS_ObjectInfo.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\WS_WorldManager.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\WS_WorldStatus.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
@@ -461,6 +466,7 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\_FindMe\Shaders\Insideout.shader" />
     <None Include="C:\Users\serantz\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.9.11\Editor\Resources\Styles\Main_Dark.uss" />
     <None Include="C:\Users\serantz\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.9.11\Editor\Resources\Styles\Main_Light.uss" />
     <None Include="C:\Users\serantz\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.9.11\Editor\Resources\Templates\Alert.uxml" />

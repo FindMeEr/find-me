@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_FindMe/Scenes/ManuScene.unity
+- path: Assets/_FindMe/Scenes/360WorldScene.unity
   isLoaded: 1
   isActive: 1
