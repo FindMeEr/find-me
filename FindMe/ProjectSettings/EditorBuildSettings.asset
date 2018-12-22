@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/_FindMe/Scenes/ClockScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/_FindMe/Scenes/360WorldScene.unity
+    guid: 5c8ec2eb3ada9874da172bd2ce0174e3
+  - enabled: 0
+    path: Assets/Oculus/VR/Scenes/GearVrControllerTest.unity
+    guid: d56af3aeb2176e7459f753c1c2e2dd97
   m_configObjects: {}

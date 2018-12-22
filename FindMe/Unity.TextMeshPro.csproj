@@ -430,6 +430,14 @@
     <None Include="Assets\Oculus\VR\Resources\Unlit Transparent Color.shader" />
     <None Include="Assets\Oculus\VR\Shaders\OVRColorRampAlpha.shader" />
     <None Include="Assets\Oculus\VR\Shaders\Unlit Crosshair.shader" />
+    <None Include="Assets\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\FieldDrawerDatabaseTemplate.txt" />
+    <None Include="Assets\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\MethodDrawerDatabaseTemplate.txt" />
+    <None Include="Assets\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\NativePropertyDrawerDbTemplate.txt" />
+    <None Include="Assets\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\PropertyDrawConditionDatabaseTemplate.txt" />
+    <None Include="Assets\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\PropertyDrawerDatabaseTemplate.txt" />
+    <None Include="Assets\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\PropertyGrouperDatabaseTemplate.txt" />
+    <None Include="Assets\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\PropertyMetaDatabaseTemplate.txt" />
+    <None Include="Assets\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\PropertyValidatorDatabaseTemplate.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
