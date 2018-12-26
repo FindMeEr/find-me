@@ -6,7 +6,7 @@ using TMPro;
 using DG.Tweening;
 
 namespace find_me{
-public class WS_UIManager : MonoBehaviour
+public class FM_UIManager : MonoBehaviour
 {
 		[SerializeField] TextMeshProUGUI _scoreText;
 		[SerializeField] TextMeshProUGUI _timeText;

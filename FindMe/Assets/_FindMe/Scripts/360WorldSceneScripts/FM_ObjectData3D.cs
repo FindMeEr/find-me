@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WS_ObjectData3D : WS_ObjectData
+public class FM_ObjectData3D : FM_ObjectData
 {
 	private void OnEnable(){
 		//_objectIDentifeir.transform.localScale = Vector3.one;

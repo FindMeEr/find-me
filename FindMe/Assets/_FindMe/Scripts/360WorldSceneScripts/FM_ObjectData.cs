@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WS_ObjectData : MonoBehaviour {
+public class FM_ObjectData : MonoBehaviour {
 
     [SerializeField] int id;
     [SerializeField] int _points;

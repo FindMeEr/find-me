@@ -4,11 +4,11 @@ using UnityEngine;
 
 namespace find_me
 {
-    public class WS_WorldBallScript : MonoBehaviour
+    public class FM_WorldBallScript : MonoBehaviour
     {
 
-        [SerializeField] WS_ClockScript _clockScript;
-        [SerializeField] WS_ScoreScript _scoreScript;
+        [SerializeField] FM_ClockScript _clockScript;
+        [SerializeField] FM_ScoreScript _scoreScript;
 
         string _worldId;
         int _worldPoints;

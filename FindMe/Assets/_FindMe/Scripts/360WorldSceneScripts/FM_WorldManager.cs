@@ -5,13 +5,13 @@ using UnityEngine;
 
 namespace find_me
 {
-	public class WS_WorldManager : MonoBehaviour
+	public class FM_WorldManager : MonoBehaviour
     {
 		[SerializeField] Material _skybox;
 
-        Dictionary<int, WS_ObjectData> objectsDataDictionary = new Dictionary<int, WS_ObjectData>();
+        Dictionary<int, FM_ObjectData> objectsDataDictionary = new Dictionary<int, FM_ObjectData>();
 
-		WS_UIManager uiManager;
+		FM_UIManager uiManager;
 
         bool _controllerClick = false;
 
@@ -34,7 +34,7 @@ namespace find_me
 		private void OnEnable()
 		{
 			RenderSettings.skybox = _skybox;
-			uiManager = GameObject.FindObjectOfType<WS_UIManager>();
+			uiManager = GameObject.FindObjectOfType<FM_UIManager>();
 
 			GameObject[] lasers = GameObject.FindGameObjectsWithTag("Laser");
 
@@ -52,7 +52,7 @@ namespace find_me
 			UnSubscribeToEvents ();
 		}
 			
-        public Dictionary<int, WS_ObjectData> ObjectsDataDictionary
+        public Dictionary<int, FM_ObjectData> ObjectsDataDictionary
         {
             get { return objectsDataDictionary; }
         }
@@ -63,15 +63,15 @@ namespace find_me
             get { return _controllerClick; }
         }
 
-        public void AddObjectData(WS_ObjectData od)
+        public void AddObjectData(FM_ObjectData od)
         {
 			numOfPoints += od.Points;
             objectsDataDictionary.Add(od.ID, od);
         }
 
-        public WS_ObjectData GetObjectDataById(int id)
+        public FM_ObjectData GetObjectDataById(int id)
         {
-            WS_ObjectData od = null;
+            FM_ObjectData od = null;
             if (objectsDataDictionary.TryGetValue(id, out od))
             {
                 return od;
@@ -79,7 +79,7 @@ namespace find_me
             return null;
         }
 			
-        protected void ObjectSelected(WS_ObjectData od)
+        protected void ObjectSelected(FM_ObjectData od)
         {
             if (look) return; // this is because the function call from an Update function
             look = true;
@@ -97,7 +97,7 @@ namespace find_me
         }
 			
 		protected void SetNextObject(){
-			WS_ObjectData od = null;
+			FM_ObjectData od = null;
 
 			if (objectsDataDictionary.Count == 0) {
 				//TODO
