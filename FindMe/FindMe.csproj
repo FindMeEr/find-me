@@ -299,6 +299,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="FindMe.Plugins.csproj">
+      <Project>{FF3923CB-0469-A5F4-B536-2B1745D56702}</Project>
+      <Name>FindMe.Plugins</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.StandardEvents.csproj">
       <Project>{6800202F-4402-D405-F8CB-03DC7BD78B92}</Project>
       <Name>UnityEditor.StandardEvents</Name>
@@ -317,15 +321,16 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_FindMe\Scripts\WorldBall\WS_ClockScript.cs" />
-    <Compile Include="Assets\_FindMe\Scripts\WorldBall\WS_ScoreScript.cs" />
-    <Compile Include="Assets\_FindMe\Scripts\WorldBall\WS_WorldBallScript.cs" />
-    <Compile Include="Assets\_FindMe\Scripts\WS_2DWorldManager.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\360WorldSceneScripts\WS_2DWorldManager.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\360WorldSceneScripts\WS_ObjectData.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\360WorldSceneScripts\WS_ObjectData2D.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\360WorldSceneScripts\WS_ObjectInfo.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\360WorldSceneScripts\WS_WorldManager.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\ControllerScript.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\ManuScripts\WorldBall\WS_ClockScript.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\ManuScripts\WorldBall\WS_ScoreScript.cs" />
+    <Compile Include="Assets\_FindMe\Scripts\ManuScripts\WorldBall\WS_WorldBallScript.cs" />
     <Compile Include="Assets\_FindMe\Scripts\WS_GameState.cs" />
-    <Compile Include="Assets\_FindMe\Scripts\WS_ObjectData.cs" />
-    <Compile Include="Assets\_FindMe\Scripts\WS_ObjectData2D.cs" />
-    <Compile Include="Assets\_FindMe\Scripts\WS_ObjectInfo.cs" />
-    <Compile Include="Assets\_FindMe\Scripts\WS_WorldManager.cs" />
     <Compile Include="Assets\_FindMe\Scripts\WS_WorldStatus.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
@@ -445,6 +450,14 @@
     <None Include="Assets\Oculus\VR\Resources\Unlit Transparent Color.shader" />
     <None Include="Assets\Oculus\VR\Shaders\OVRColorRampAlpha.shader" />
     <None Include="Assets\Oculus\VR\Shaders\Unlit Crosshair.shader" />
+    <None Include="Assets\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\FieldDrawerDatabaseTemplate.txt" />
+    <None Include="Assets\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\MethodDrawerDatabaseTemplate.txt" />
+    <None Include="Assets\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\NativePropertyDrawerDbTemplate.txt" />
+    <None Include="Assets\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\PropertyDrawConditionDatabaseTemplate.txt" />
+    <None Include="Assets\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\PropertyDrawerDatabaseTemplate.txt" />
+    <None Include="Assets\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\PropertyGrouperDatabaseTemplate.txt" />
+    <None Include="Assets\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\PropertyMetaDatabaseTemplate.txt" />
+    <None Include="Assets\Plugins\NaughtyAttributes\Scripts\Editor\CodeGeneration\Templates\PropertyValidatorDatabaseTemplate.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
