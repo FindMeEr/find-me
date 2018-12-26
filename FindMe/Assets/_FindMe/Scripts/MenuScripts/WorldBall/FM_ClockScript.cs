@@ -5,7 +5,7 @@ using TMPro;
 
 namespace find_me
 {
-    public class WS_ClockScript : MonoBehaviour
+    public class FM_ClockScript : MonoBehaviour
     {
 
         [SerializeField] SpriteRenderer _outsideSprite;

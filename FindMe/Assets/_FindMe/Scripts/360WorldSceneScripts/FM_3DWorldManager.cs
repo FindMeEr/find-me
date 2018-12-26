@@ -6,13 +6,13 @@ using TMPro;
 
 namespace find_me
 {
-	public class WS_3DWorldManager : WS_WorldManager
+	public class FM_3DWorldManager : FM_WorldManager
     {
 		private void Start()
 		{
-			WS_ObjectData3D[] objectData3DArray = GameObject.FindObjectsOfType<WS_ObjectData3D>();
+			FM_ObjectData3D[] objectData3DArray = GameObject.FindObjectsOfType<FM_ObjectData3D>();
 
-			foreach (WS_ObjectData3D od in objectData3DArray)
+			foreach (FM_ObjectData3D od in objectData3DArray)
 			{
 				AddObjectData(od);
 			}
@@ -32,7 +32,7 @@ namespace find_me
 						if (hit.collider.gameObject.name.Contains("Solar")) {
 							//hit.collider.enabled = false;
 							//hit.collider.gameObject.SetActive (false);
-							ObjectSelected (hit.collider.gameObject.GetComponent<WS_ObjectData> ());
+							ObjectSelected (hit.collider.gameObject.GetComponent<FM_ObjectData> ());
 						}
 					}
 				}

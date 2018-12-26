@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 namespace find_me
 {
-    public class WS_ScoreScript : MonoBehaviour
+    public class FM_ScoreScript : MonoBehaviour
     {
 
         [SerializeField] TextMeshPro _scoreText;
